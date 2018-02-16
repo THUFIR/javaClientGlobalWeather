@@ -37,6 +37,7 @@ configurations {
 dependencies {
       compile "org.jetbrains.kotlin:kotlin-stdlib:1.1.51"
       compile 'io.github.microutils:kotlin-logging:1.4.9'
+      compile 'com.maxmind.geoip2:geoip2:2.11.0'
 }
 
 
