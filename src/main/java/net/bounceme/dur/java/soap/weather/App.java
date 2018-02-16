@@ -14,6 +14,6 @@ public class App {
     private void run() throws MalformedURLException {
         log.info("begin");
         Weather w = new Weather();
-        w.interrrogateWSDL();
+        w.getWeather("italy","rome");
     }
 }
